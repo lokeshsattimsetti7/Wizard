@@ -1,0 +1,50 @@
+* {}
+
+section {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    ;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+nav h1 {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav h1 i {
+    rotate: 45deg;
+    display: inline-block;
+    font-size: 55px;
+}
+
+nav h4 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+nav button {
+    padding: 22px 40px;
+    font-size: 22px;
+    border-radius: 5px;
+    background-color: transparent;
+    font-weight: 600;
+    border: 1px solid black;
+}

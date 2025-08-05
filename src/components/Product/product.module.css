@@ -1,0 +1,10 @@
+.mainsection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 120px;
+}
+
+.mainsection img {
+    height: 70px;
+}
